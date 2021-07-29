@@ -8,25 +8,246 @@
     <title>Cbr Honda</title>
     <!-- Bootstrap stylesheet -->
     <link rel="stylesheet" href="css-min/bootstrap.min.css">
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
 </head>
 
 <body>
     <!-- header start -->
-    <header class="container d-flex">
-        <div>
-            <p><span>Computer-controlled digital transistorized with electronic advance</span></p>
-            <h1>Honda CBR 300R</h1>
-            <p><span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis
-                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span></p>
-        </div>
-        <div>
-            <img src="images/header-bike.png" alt="">
+    <header class="bg bg-secondary">
+        <div class="justify-content-center p-5">
+            <div class="row">
+                <!-- <div class="bg bg-secondary d-flex align-items-center p-5"> -->
+                <div class="col col-lg-6 col-sm">
+                    <p><span class="text-white-50">Computer-controlled digital transistorized with electronic
+                            advance</span>
+                    </p>
+                    <h1 class="text-white">Honda CBR 300R</h1>
+                    <p><span class="text-white-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                            sint.
+                            Velit officia
+                            consequat
+                            duis
+                            enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span></p>
+                    <button type="button" class="btn btn-primary btn-lg text-white">Purchase</button>
+
+                </div>
+                <div class="col col-lg-6 col-sm img-fluid">
+                    <img src="images/header-bike.png" alt="">
+                </div>
+            </div>
         </div>
     </header>
     <!-- header end -->
     <main>
+        <!-- features bikes -->
+        <div class="my-5">
+            <div class="d-flex justify-content-center">
+                <h3 class="fw-bolder">Featured Bikes 2021</h3>
+            </div>
+            <small class="d-flex justify-content-center text-danger">Best Bike Collection</small>
+        </div>
+        <!-- grayscale bikes -->
+        <!-- <section class="container d-flex justify-content-around p-5">
+            <div class="gray">
+                <img class="w-50" src="images/feature-bike.jpg" alt="">
+            </div>
+            <div class="">
+                <img class="w-50" src="images/feature-bike.jpg" alt="">
+            </div>
+            <div class="gray">
+                <img class="w-50" src="images/feature-bike.jpg" alt="">
+            </div>
+        </section> -->
 
+        <!-- featured bikes gutter -->
+
+        <div class="container overflow-hidden my-5 p-5">
+            <div class="row gx-5 p-8">
+                <div class="col-4">
+                    <div class="gray">
+                        <img src="images/feature-bike.jpg" class="w-100" alt="...">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="">
+                        <img src="images/feature-bike.jpg" class="w-100" alt="...">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="gray">
+                        <img src="images/feature-bike.jpg" class="w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- happy clients says -->
+        <div class="d-flex justify-content-center">
+            <h1 class="fw-bolder">Happy <span class="text-danger">Clients Says</span></h1>
+        </div>
+        <!-- card  -->
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+                <div class="col">
+                    <div class="card h-70">
+                        <img src="images/user-1.png" class="my-3 size m-auto" alt="...">
+                        <div class="card-body text-center p-0">
+                            <p class="card-text">This is a wider details of a web developer who is the pop in the
+                                whole
+                                world</p>
+                            <div class="mb-2">
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="far fa-star star-color"></i>
+                            </div>
+                            <div>
+                                <h6><small class="text-info">Kit Harington</small></h6>
+                            </div>
+                            <div>
+                                <h6><small class="fw-bold">Developer</small></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-50">
+                        <img src="images/user-1.png" class="my-3 size m-auto" alt="...">
+                        <div class="card-body text-center p-0">
+                            <p class="card-text">This is a wider details of a web developer who is the pop in the
+                                whole
+                                world</p>
+                            <div class="mb-2">
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="far fa-star star-color"></i>
+                            </div>
+                            <div>
+                                <h6><small class="text-info">Kit Harington</small></h6>
+                            </div>
+                            <div>
+                                <h6><small class="fw-bold">Developer</small></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-70">
+                        <img src="images/user-3.jpg" class="size  rounded-circle m-auto my-3" alt="...">
+                        <div class="card-body text-center p-0">
+                            <p class="card-text">This is a wider details of a web developer who is the pop in the
+                                whole
+                                world</p>
+                            <div class="mb-2">
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="fas fa-star star-color"></i>
+                                <i class="far fa-star star-color"></i>
+                            </div>
+                            <div>
+                                <h6><small class="text-info">Kit Harington</small></h6>
+                            </div>
+                            <div>
+                                <h6><small class="fw-bold">Developer</small></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- frequently asked question -->
+        <div class="d-flex justify-content-center">
+            <h1 class="fw-bolder">Frequently Asked <span class="text-danger">Questions</span></h1>
+        </div>
+        <section class="container my-5">
+            <div class="row">
+                <div class="col col-lg-6">
+                    <img class="w-75" src="images/faq.png" alt="">
+                </div>
+                <div class="col col-lg-6">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    There are no vital things you should know except which you do not know.
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>This is the first item which i made by myself.</strong> Everybody can make
+                                    the item as easily as possible but make the website full responsiveness.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    People who have a bike inherently there is no doubt that they can earn money by
+                                    doing job at Uber to buy a helmet
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong>Do not feel poor as you earn enormous money</strong> Do not feel pretend as
+                                    you don't have a storage to keep the bike safely.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    There are no vital things you should know except which you do not know.
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the first item which i made by myself.</strong> Everybody can make
+                                    the item as easily as possible but make the website full responsiveness.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    People who have a bike inherently there is no doubt that they can earn money by
+                                    doing job at Uber to buy a helmet
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>Do not feel poor as you earn enormous money</strong> Do not feel pretend as
+                                    you don't have a storage to keep the bike safely.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 

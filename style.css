@@ -1,9 +1,31 @@
+/* header background */
+
+.background-color{
+    background: #264653;
+}
+
+/* button-color */
+
+.button-color{
+    background: #E76F51;
+    border-radius: 5px;
+
+}
+
+/* grayscale */
+
 .gray{
     filter:grayscale(100)
 }
+
+/* star color  */
+
 .star-color{
     color: #E77C40;
 }
+
+/* clients images */
+
 .size{
     width: 149px;
     height: 149px;

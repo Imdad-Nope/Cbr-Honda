@@ -19,11 +19,10 @@
 
 <body>
     <!-- header start -->
-    <header class="bg bg-secondary">
-        <div class="justify-content-center p-5">
-            <div class="row">
-                <!-- <div class="bg bg-secondary d-flex align-items-center p-5"> -->
-                <div class="col col-lg-6 col-sm">
+    <header class="overflow-hidden">
+        <div class="background-color">
+            <div class="row d-flex align-items-center p-5">
+                <div class="col-lg-5 col-sm">
                     <p><span class="text-white-50">Computer-controlled digital transistorized with electronic
                             advance</span>
                     </p>
@@ -34,52 +33,40 @@
                             consequat
                             duis
                             enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span></p>
-                    <button type="button" class="btn btn-primary btn-lg text-white">Purchase</button>
-
+                    <a href="#alert"><button type="button" class="button-color btn-lg text-white">Purchase</button>
+                    </a>
                 </div>
-                <div class="col col-lg-6 col-sm img-fluid">
-                    <img src="images/header-bike.png" alt="">
+                <div class="col-lg-7 col-sm">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
                 </div>
             </div>
         </div>
     </header>
     <!-- header end -->
     <main>
-        <!-- features bikes -->
+        <!-- features bikes heading -->
         <div class="my-5">
             <div class="d-flex justify-content-center">
                 <h3 class="fw-bolder">Featured Bikes 2021</h3>
             </div>
             <small class="d-flex justify-content-center text-danger">Best Bike Collection</small>
         </div>
-        <!-- grayscale bikes -->
-        <!-- <section class="container d-flex justify-content-around p-5">
-            <div class="gray">
-                <img class="w-50" src="images/feature-bike.jpg" alt="">
-            </div>
-            <div class="">
-                <img class="w-50" src="images/feature-bike.jpg" alt="">
-            </div>
-            <div class="gray">
-                <img class="w-50" src="images/feature-bike.jpg" alt="">
-            </div>
-        </section> -->
 
-        <!-- featured bikes gutter -->
+        <!-- featured/grayscales bikes gutter -->
 
         <div class="container overflow-hidden my-5 p-5">
             <div class="row gx-5 p-8">
-                <div class="col-4">
+                <div class="col-lg-4 my-2">
                     <div class="gray">
-                        <img src="images/feature-bike.jpg" class="w-100" alt="...">
+                        <img src="images/feature-bike.jpg" class="w-100" alt="..">
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 my-2">
                     <div class="">
                         <img src="images/feature-bike.jpg" class="w-100" alt="...">
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 my-2">
                     <div class="gray">
                         <img src="images/feature-bike.jpg" class="w-100" alt="...">
                     </div>
@@ -118,8 +105,8 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-50">
-                        <img src="images/user-1.png" class="my-3 size m-auto" alt="...">
+                    <div class="card h-70 ">
+                        <img src="images/user-2.png" class="my-3 size m-auto" alt="...">
                         <div class="card-body text-center p-0">
                             <p class="card-text">This is a wider details of a web developer who is the pop in the
                                 whole
@@ -173,12 +160,12 @@
         </div>
         <section class="container my-5">
             <div class="row">
-                <div class="col col-lg-6">
+                <div class="col-lg-6 col-sm">
                     <img class="w-75" src="images/faq.png" alt="">
                 </div>
-                <div class="col col-lg-6">
+                <div class="col-lg-6 col-sm">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item">
+                        <div class="accordion-item rounded-2 mt-3 p-2">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
@@ -194,7 +181,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item rounded-3 mt-3 p-2">
                             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
@@ -211,7 +198,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item rounded-3 mt-3 p-2">
                             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
@@ -227,7 +214,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item rounded-3 mt-3 p-2">
                             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
@@ -244,6 +231,45 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- offcanvas -->
+
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm my-3">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Do not try to click</button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Oo hlw, Why you bother me huh.Hey dude, try to
+                                listen somebody.
+                                #RIP</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            great opportunity doesn't come times and again...
+                        </div>
+                    </div>
+                </div>
+                <!-- Alerts -->
+                <div class="col-lg-6 col-sm">
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading">Well done!</h4>
+                        <p>Aww yeah, you successfully read this important alert massage. Sorry read it again buddy!
+                            Message or Massage. This example text is going to
+                            run a bit longer so that you can see how spacing within an alert works with this kind of
+                            content.</p>
+                        <hr>
+                        <p class="mb-0" id="alert">Whenever you need to, be sure to use margin utilities to keep things
+                            nice and
+                            tidy.</p>
                     </div>
                 </div>
             </div>
